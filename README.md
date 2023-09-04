@@ -16,6 +16,7 @@
 	  <a href="https://hub.docker.com/r/zricethezav/gitleaks">
 		  <img src="https://img.shields.io/docker/pulls/zricethezav/gitleaks.svg" />
 	  </a>
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fcfzlp%2Fgitleaks?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcfzlp%2Fgitleaks.svg?type=shield"/></a>
 	  <a href="https://github.com/zricethezav/gitleaks-action">
         	<img alt="gitleaks badge" src="https://img.shields.io/badge/protected%20by-gitleaks-blue">
     	 </a>
@@ -94,6 +95,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITLEAKS_LICENSE: ${{ secrets.GITLEAKS_LICENSE}} # Only required for Organizations, not personal accounts.
 ```
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcfzlp%2Fgitleaks.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcfzlp%2Fgitleaks?ref=badge_large)
 
 ### Pre-Commit
 
